@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Feedback() {
   return (
-    <div classNameName="container-fluid py-5">
-      <div classNameName="row">
-        <div classNameName="col-lg-4">
-          <span classNameName="caption">TESTIMONIALS</span>
-          <h3 classNameName="heading">Our Customers Feedbck</h3>
+    <div className="container-fluid py-5">
+      <div className="row">
+        <div className="col-lg-4">
+          <span className="caption">TESTIMONIALS</span>
+          <h3 className="heading">Our Customers Feedbck</h3>
           <a
-            classNameName="d-block text-center text-light"
+            className="d-block text-center text-light"
             style={{
               width: "50px",
               height: "40px",
@@ -36,8 +36,30 @@ export default function Feedback() {
             </svg>
           </a>
         </div>
-        <div classNameName="col-lg-8">
-          <div
+        <div className="col-lg-6">
+          <div className="row row-cols-1 row-cols-lg-2">
+            <div className="col">
+              <blockquote>
+                “Separated they{" "}
+                <span class="highlight">
+                  live in Bookmarksgrove right at the coast of the Semantics
+                </span>
+                , a large language ocean. A small river named Duden flows by
+                their place and supplies it with the necessary regelialia. ”
+              </blockquote>
+            </div>
+            <div className="col">
+              <blockquote>
+                “Separated they{" "}
+                <span class="highlight">
+                  live in Bookmarksgrove right at the coast of the Semantics
+                </span>
+                , a large language ocean. A small river named Duden flows by
+                their place and supplies it with the necessary regelialia. ”
+              </blockquote>
+            </div>
+          </div>
+          {/* <div
             id="carouselExampleIndicators"
             className="carousel slide"
             data-bs-ride="carousel"
@@ -92,7 +114,7 @@ export default function Feedback() {
               ></span>
               <span className="visually-hidden">Next</span>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
