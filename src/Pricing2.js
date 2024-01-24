@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Pricing2() {
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid container-spacing">
       <div className="container">
         <div className="row text-center">
           <h2 style={{ fontSize:'38px' }}>Advantage of using our products</h2>

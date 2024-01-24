@@ -5,10 +5,10 @@ import authorImage from "./images/person_1.jpg";
 
 export default function Features() {
   return (
-    <div className="container-fluid" id="Features">
+    <div className="container-fluid container-spacing" id="Features">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4"  data-aos="fade-up" data-aos-duration="800">
             <span className="caption">Digital Services</span>
             <h3 className="heading">Selling Digital Services</h3>
             <p className="mt-3 text-muted lh-lg">
@@ -16,21 +16,21 @@ export default function Features() {
               Vokalia and Consonantia, there live the blind texts. Separated
               they live in Bookmarksgrove right at the coast
             </p>
-            <ul className="lh-lg">
-              <li>There live the blind texts</li>
-              <li>Far far away behind the word</li>
+            <ul className="lh-lg list-unstyled">
+              <li className="stick position-relative ps-4">There live the blind texts</li>
+              <li className="stick position-relative ps-4">Far far away behind the word</li>
             </ul>
-            <blockquote style={{ color: "black" }}>
+            <blockquote style={{ color: "black" }}  data-aos="fade-up" data-aos-duration="1500">
               <i>
                 “Separated they{" "}
-                <mark style={{ backgroundColor: "lightblue" }}>
+                <mark style={{ backgroundColor: "#f2f6ff" }}>
                   live in Bookmarksgrove right at the coast of the Semantics
                 </mark>
                 , a large language ocean. A small river named Duden flows by
                 their place and supplies it with the necessary regelialia. ”
               </i>
             </blockquote>
-            <div className="author d-flex mt-3">
+            <div className="author d-flex mt-3"  data-aos="fade-up" data-aos-duration="1500">
               <div>
                 <img
                   className="author-image"
@@ -46,7 +46,7 @@ export default function Features() {
               </div>
             </div>
           </div>
-          <div className="col-lg-7">
+          <div className="col-lg-7 shadow-lg ms-auto"  data-aos="fade-up" data-aos-duration="1500">
             <img src={Feature} className="img-fluid"></img>
           </div>
         </div>

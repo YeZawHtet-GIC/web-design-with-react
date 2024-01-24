@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Features3() {
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid container-spacing">
       <div className="container">
         <div className="row row-cols-2 row-cols-lg-4">
-          <div className="col">
+          <div className="col" data-aos="fade-up" data-aos-duration="600">
             <div
               className="service-icon1 text-center rounded p-2"
               style={{ width: "50px", marginBottom: "24px" }}
@@ -33,7 +33,7 @@ export default function Features3() {
               </p>
             </div>
           </div>
-          <div className="col">
+          <div className="col" data-aos="fade-up" data-aos-duration="1000">
             <div
               className="service-icon2 text-center rounded p-2"
               style={{ width: "50px", marginBottom: "24px" }}
@@ -64,7 +64,7 @@ export default function Features3() {
               </p>
             </div>
           </div>
-          <div className="col">
+          <div className="col" data-aos="fade-up" data-aos-duration="1400">
             <div
               className="service-icon3 text-center rounded p-2"
               style={{ width: "50px", marginBottom: "24px" }}
@@ -95,7 +95,7 @@ export default function Features3() {
               </p>
             </div>
           </div>
-          <div className="col">
+          <div className="col" data-aos="fade-up" data-aos-duration="1800">
             <div
               className="service-icon3 text-center rounded p-2"
               style={{ width: "50px", marginBottom: "24px" }}

@@ -7,10 +7,20 @@ import Pricing from "./Pricing";
 import Pricing2 from "./Pricing2";
 import "./App.css";
 import Feedback from "./Feedback";
+import AboutUs from "./AboutUs";
+import AboutUs2 from "./AboutUs2";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import AOS from "aos";
+import React, { useEffect } from "react";
 
 function App() {
+  //Aos Animation
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="container-fluid">
+    <>
       <Header />
       <Hero />
       <Features />
@@ -19,7 +29,11 @@ function App() {
       <Pricing />
       <Pricing2 />
       <Feedback />
-    </div>
+      <AboutUs />
+      <AboutUs2 />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 

@@ -3,11 +3,16 @@ import HeroImage from "./images/img_hero.svg";
 import "./Hero.css";
 export default function Hero() {
   return (
-    <div className="container-fluid hero-section pb-5">
+    <div className="container-fluid hero-section pb-5" style={{ paddingTop:'8%' }}>
       <div className="container">
-        <div className="row">
+        <div className="row row-cols-lg-2 row-cols-1">
+          {/* Hero Right For Image */}
+          <div className="col order-lg-2" data-aos="fade-right" data-aos-duration="1000">
+            <img src={HeroImage} alt="Hero Image"></img>
+          </div>
+          {/* Hero Right For Image */}
           {/* Hero Left For Text */}
-          <div className="col">
+          <div className="col" data-aos="fade-up" data-aos-duration="1000">
             <h1 className="hero-heading">
               Promote Your <br /> Products by <br /> Colorlib
             </h1>
@@ -42,11 +47,7 @@ export default function Hero() {
             </div>
           </div>
           {/* Hero Left For Text End*/}
-          {/* Hero Right For Image */}
-          <div className="col">
-            <img src={HeroImage}></img>
-          </div>
-          {/* Hero Right For Image */}
+          
         </div>
       </div>
     </div>

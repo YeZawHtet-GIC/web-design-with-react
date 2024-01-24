@@ -3,10 +3,10 @@ import "./Pricing.css"
 import featureImage from "./images/dashboard.jpg";
 export default function Features2() {
     return (
-        <div className="container-fluid py-5" id="Pricing">
+        <div className="container-fluid container-spacing" id="Pricing">
           <div className="container">
             <div className="row">
-              <div className="col-lg-7 p-2">
+              <div className="col-lg-7 p-2 shadow-lg" data-aos="fade-in" data-aos-duration="1000">
                 <img
                   src={featureImage}
                   alt="Dashboard Image"
@@ -14,7 +14,7 @@ export default function Features2() {
                 />
               </div>
               <div className="col-lg-5">
-                <a
+                <a data-aos="fade-left" data-aos-duration="800"
                   href="#"
                   className="d-flex m-4 g-3 text-decoration-none text-dark"
                 >
@@ -42,7 +42,7 @@ export default function Features2() {
                     </p>
                   </div>
                 </a>
-                <a
+                <a data-aos="fade-left" data-aos-duration="1200"
                   href="#"
                   className="d-flex m-4 g-3 text-decoration-none text-dark"
                 >
@@ -73,7 +73,7 @@ export default function Features2() {
                     </p>
                   </div>
                 </a>
-                <a
+                <a data-aos="fade-left" data-aos-duration="1600"
                   href="#"
                   className="d-flex m-4 g-3 text-decoration-none text-dark"
                 >
@@ -104,7 +104,7 @@ export default function Features2() {
                     </p>
                   </div>
                 </a>
-                <a
+                <a data-aos="fade-left" data-aos-duration="2000"
                   href="#"
                   className="d-flex mx-4 text-decoration-none text-dark"
                 >
