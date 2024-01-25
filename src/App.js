@@ -1,3 +1,4 @@
+
 import Features from "./Features";
 import Features2 from "./Features2";
 import Features3 from "./Features3";
@@ -12,6 +13,7 @@ import AboutUs2 from "./AboutUs2";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import AOS from "aos";
+
 import React, { useEffect } from "react";
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
   useEffect(() => {
     AOS.init();
   }, []);
+
+ 
   return (
     <>
       <Header />

@@ -25,15 +25,14 @@ export default function Pricing() {
             <div className="row">
               <div className="col-lg-4 mb-4">
                 <div
-                  className="p-5 border"
+                  className="p-5 border bf-br40"
                   data-aos="fade-up"
                   data-aos-duration="1000"
-                  style={{ backgroundColor: "#ffffff", borderRadius: "40px" }}
                 >
                   <div className="price d-flex flex-column text-center">
-                    <span style={{ fontSize: "30px" }}>Free</span>
-                    <span style={{ fontSize: "40px" }}>
-                      <sup style={{ fontSize: "20px" }}>$</sup>0
+                    <span className="f-30">Free</span>
+                    <span className="f-40">
+                      <sup className="f-20">$</sup>0
                     </span>
                   </div>
                   <ul className="lh-lg list-unstyled">
@@ -50,15 +49,14 @@ export default function Pricing() {
               </div>
               <div className="col-lg-4 mb-4">
                 <div
-                  className="p-5 border shadow-lg"
+                  className="p-5 border shadow-lg bf-br40"
                   data-aos="fade-up"
                   data-aos-duration="1200"
-                  style={{ backgroundColor: "#ffffff", borderRadius: "40px" }}
                 >
                   <div className="price d-flex flex-column text-center">
-                    <span style={{ fontSize: "30px" }}>Standard</span>
-                    <span style={{ fontSize: "40px" }}>
-                      <sup style={{ fontSize: "20px" }}>$</sup>19.99
+                    <span className="f-30">Standard</span>
+                    <span className="f-40">
+                      <sup className="f-20">$</sup>19.99
                     </span>
                   </div>
                   <ul className="lh-lg list-unstyled">
@@ -73,15 +71,14 @@ export default function Pricing() {
               </div>
               <div className="col-lg-4 mb-4">
               <div
-                className="p-5 border"
+                className="p-5 border bf-br40"
                 data-aos="fade-up"
                 data-aos-duration="1400"
-                style={{ backgroundColor: "#ffffff", borderRadius: "40px" }}
               >
                 <div className="price d-flex flex-column text-center">
-                  <span style={{ fontSize: "30px" }}>Premium</span>
-                  <span style={{ fontSize: "40px" }}>
-                    <sup style={{ fontSize: "20px" }}>$</sup>79.99
+                  <span className="f-30">Premium</span>
+                  <span className="f-40">
+                    <sup className="f-20">$</sup>79.99
                   </span>
                 </div>
                 <ul className="list-unstyled lh-lg">

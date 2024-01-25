@@ -1,11 +1,23 @@
-.hero-heading{
+.hero-heading {
     font-size: 70px;
     line-height: 1;
     font-weight: 700;
     color: #000000;
     margin-bottom: 30px;
 }
+
 /* .hero-section{
     background: url("./images/") top right no-repeat;
     
 } */
+
+.pt-8per {
+    padding-top: 8%;
+}
+
+@media (max-width:1024px) {
+    .hero-heading {
+        font-size: 50px !important;
+        text-align: center !important;
+    }
+}

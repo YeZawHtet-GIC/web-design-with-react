@@ -20,10 +20,10 @@ export default function Features() {
               <li className="stick position-relative ps-4">There live the blind texts</li>
               <li className="stick position-relative ps-4">Far far away behind the word</li>
             </ul>
-            <blockquote style={{ color: "black" }}  data-aos="fade-up" data-aos-duration="1500">
+            <blockquote className="text-black"  data-aos="fade-up" data-aos-duration="1500">
               <i>
                 “Separated they{" "}
-                <mark style={{ backgroundColor: "#f2f6ff" }}>
+                <mark>
                   live in Bookmarksgrove right at the coast of the Semantics
                 </mark>
                 , a large language ocean. A small river named Duden flows by

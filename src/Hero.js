@@ -3,11 +3,15 @@ import HeroImage from "./images/img_hero.svg";
 import "./Hero.css";
 export default function Hero() {
   return (
-    <div className="container-fluid hero-section pb-5" style={{ paddingTop:'8%' }}>
+    <div className="container-fluid hero-section pb-5 pt-8per">
       <div className="container">
         <div className="row row-cols-lg-2 row-cols-1">
           {/* Hero Right For Image */}
-          <div className="col order-lg-2" data-aos="fade-right" data-aos-duration="1000">
+          <div
+            className="col order-lg-2"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <img src={HeroImage} alt="Hero Image"></img>
           </div>
           {/* Hero Right For Image */}
@@ -16,7 +20,7 @@ export default function Hero() {
             <h1 className="hero-heading">
               Promote Your <br /> Products by <br /> Colorlib
             </h1>
-            <p>
+            <p style={{ color:'#939393' }}>
               Another cool free html css template by{" "}
               <a
                 href="#"
@@ -30,24 +34,15 @@ export default function Hero() {
               they live in Bookmarksgrove right at the coast
             </p>
             <div className="py-3">
-              <a
-                href="#"
-                className="btn btn-primary cmn-btn"
-                style={{ borderRadius: "20px", marginRight: "10px" }}
-              >
+              <a href="#" className="btn btn-primary cmn-btn">
                 See Features
               </a>
-              <a
-                href="#"
-                className="btn btn-outline-primary cmn-btn"
-                style={{ borderRadius: "20px", marginRight: "10px" }}
-              >
+              <a href="#" className="btn btn-outline-primary cmn-btn">
                 Pricing
               </a>
             </div>
           </div>
           {/* Hero Left For Text End*/}
-          
         </div>
       </div>
     </div>

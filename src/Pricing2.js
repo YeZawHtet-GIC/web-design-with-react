@@ -1,22 +1,23 @@
 import React from "react";
-
 export default function Pricing2() {
   return (
     <div className="container-fluid container-spacing">
       <div className="container">
-        <div className="row text-center">
-          <h2 style={{ fontSize:'38px' }}>Advantage of using our products</h2>
+        <div className="row text-center" data-aos="fade-up"
+          data-aos-duration="1000">
+          <h2 className="f-38">Advantage of using our products</h2>
           <span className="mb-5 text-muted">Far from the countries Vokalia and Consonantia</span>
         </div>
-        <div className="row row-cols-2 row-cols-lg-2">
-          <div className="col d-flex mt-5">
-            <div className="service-icon1 text-center rounded p-2" style={{ width:'50px', height:'40px', marginRight:'30px', marginBottom:'24px' }}>
+        <div className="row row-cols-1 row-cols-lg-2">
+          <div className="col d-flex mt-5" data-aos="fade-up"
+          data-aos-duration="1200">
+            <div className="service-icon1 service-icon text-center rounded p-2">
               <svg
                 className="bi bi-app-indicator"
                 width="1.5em"
                 height="1.5em"
                 viewBox="0 0 16 16"
-                fill="currentColor"
+                fill="#fff"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -35,14 +36,15 @@ export default function Pricing2() {
               <a href="#" className="text-primary text-decoration-none">Learn More</a>
             </div>
           </div>
-          <div className="col d-flex mt-5">
-            <div className="service-icon2 text-center rounded p-2" style={{ width:'50px', height:'40px', marginRight:'30px', marginBottom:'24px' }}>
+          <div className="col d-flex mt-5" data-aos="fade-up"
+          data-aos-duration="1400">
+            <div className="service-icon2 service-icon text-center rounded p-2">
               <svg
                 class="bi bi-arrow-repeat"
                 width="1.5em"
                 height="1.5em"
                 viewBox="0 0 16 16"
-                fill="currentColor"
+                fill="#fff"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -64,14 +66,15 @@ export default function Pricing2() {
               <a href="#" className="text-primary text-decoration-none">Learn More</a>
             </div>
           </div>
-          <div className="col d-flex mt-5">
-            <div className="service-icon3 text-center rounded p-2" style={{ width:'50px', height:'40px', marginRight:'30px', marginBottom:'24px' }}>
+          <div className="col d-flex mt-5" data-aos="fade-up"
+          data-aos-duration="1600">
+            <div className="service-icon3 service-icon text-center rounded p-2">
               <svg
                 class="bi bi-briefcase"
                 width="1.5em"
                 height="1.5em"
                 viewBox="0 0 16 16"
-                fill="currentColor"
+                fill="#fff"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -93,14 +96,15 @@ export default function Pricing2() {
               <a href="#" className="text-primary text-decoration-none">Learn More</a>
             </div>
           </div>
-          <div className="col d-flex mt-5">
-            <div className="service-icon3 text-center rounded p-2" style={{ width:'50px', height:'40px', marginRight:'30px', marginBottom:'24px' }}>
+          <div className="col d-flex mt-5" data-aos="fade-up"
+          data-aos-duration="1800">
+            <div className="service-icon3 service-icon text-center rounded p-2">
               <svg
                 class="bi bi-collection"
                 width="1.5em"
                 height="1.5em"
                 viewBox="0 0 16 16"
-                fill="currentColor"
+                fill="#fff"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path

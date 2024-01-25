@@ -1,21 +1,18 @@
 import React from "react";
-
+import "./Features3.css";
 export default function Features3() {
   return (
     <div className="container-fluid container-spacing">
       <div className="container">
-        <div className="row row-cols-2 row-cols-lg-4">
+        <div className="row row-cols-1 row-cols-lg-4">
           <div className="col" data-aos="fade-up" data-aos-duration="600">
-            <div
-              className="service-icon1 text-center rounded p-2"
-              style={{ width: "50px", marginBottom: "24px" }}
-            >
+            <div className="service-icon1 text-center rounded p-2 w50-mb-20">
               <svg
                 className="bi bi-app-indicator"
                 width="1.5em"
                 height="1.5em"
                 viewBox="0 0 16 16"
-                fill="currentColor"
+                fill="#fff"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -34,16 +31,13 @@ export default function Features3() {
             </div>
           </div>
           <div className="col" data-aos="fade-up" data-aos-duration="1000">
-            <div
-              className="service-icon2 text-center rounded p-2"
-              style={{ width: "50px", marginBottom: "24px" }}
-            >
+            <div className="service-icon2 text-center rounded p-2 w50-mb-20">
               <svg
                 class="bi bi-arrow-repeat"
                 width="1.5em"
                 height="1.5em"
                 viewBox="0 0 16 16"
-                fill="currentColor"
+                fill="#fff"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -65,16 +59,13 @@ export default function Features3() {
             </div>
           </div>
           <div className="col" data-aos="fade-up" data-aos-duration="1400">
-            <div
-              className="service-icon3 text-center rounded p-2"
-              style={{ width: "50px", marginBottom: "24px" }}
-            >
+            <div className="service-icon3 text-center rounded p-2 w50-mb-20">
               <svg
                 class="bi bi-briefcase"
                 width="1.5em"
                 height="1.5em"
                 viewBox="0 0 16 16"
-                fill="currentColor"
+                fill="#fff"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -96,16 +87,13 @@ export default function Features3() {
             </div>
           </div>
           <div className="col" data-aos="fade-up" data-aos-duration="1800">
-            <div
-              className="service-icon3 text-center rounded p-2"
-              style={{ width: "50px", marginBottom: "24px" }}
-            >
+            <div className="service-icon3 text-center rounded p-2 w50-mb-20">
               <svg
                 class="bi bi-collection"
                 width="1.5em"
                 height="1.5em"
                 viewBox="0 0 16 16"
-                fill="currentColor"
+                fill="#fff"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
