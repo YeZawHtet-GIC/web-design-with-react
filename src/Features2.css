@@ -1,0 +1,23 @@
+
+.inactive{
+    transform: translateX(-100%) !important;
+}
+.active{
+    transform: translateX(50) !important;
+}
+.service-icon {
+    width: 50px;
+    height: 40px;
+    margin-right: 30px;
+    margin-bottom: 24px;
+}
+
+.c-rounded{
+padding: 5px;
+border-radius: 50%;
+background-color: #407bff;
+}
+
+.feature-nav-card{
+    background-color: #fff !important;
+}
