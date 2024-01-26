@@ -43,3 +43,9 @@
 .f-38{
     font-size: 38px;
 }
+
+@media (max-width:1024px) {
+    .mb-sm-2{
+        margin-bottom: 20px;
+    }
+}

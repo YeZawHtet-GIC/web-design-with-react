@@ -33,7 +33,7 @@ export default function Hero() {
               Vokalia and Consonantia, there live the blind texts. Separated
               they live in Bookmarksgrove right at the coast
             </p>
-            <div className="py-3">
+            <div className="py-3 nav-sm-group">
               <a href="#" className="btn btn-primary cmn-btn">
                 See Features
               </a>

@@ -20,7 +20,7 @@ export default function AboutUs2() {
           </span>
         </div>
         <div className="row row-cols-1 row-cols-lg-3">
-          <div className="col" data-aos="fade-up" data-aos-duration="1200">
+          <div className="col mb-sm-2" data-aos="fade-up" data-aos-duration="1200">
             <div className="border floating-card bg-white px-2">
               <div className="p-4">
                 <div className="author d-flex mt-3">
@@ -71,7 +71,7 @@ export default function AboutUs2() {
               </div>
             </div>
           </div>
-          <div className="col" data-aos="fade-up" data-aos-duration="1400">
+          <div className="col mb-sm-2" data-aos="fade-up" data-aos-duration="1400">
             <div className="border floating-card bg-white px-2">
               <div className="p-4">
                 <div className="author d-flex mt-3">
@@ -119,7 +119,7 @@ export default function AboutUs2() {
               </div>
             </div>
           </div>
-          <div className="col" data-aos="fade-up" data-aos-duration="1600">
+          <div className="col mb-sm-2" data-aos="fade-up" data-aos-duration="1600">
             <div className="border floating-card bg-white px-2">
               <div className="p-4">
                 <div className="author d-flex mt-3">

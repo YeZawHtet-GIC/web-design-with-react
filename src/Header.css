@@ -28,12 +28,14 @@ nav {
 
 @media (max-width:1000px) {
     .sub-margin {
-        margin-left: 30% !important;
+        margin-left: 0 !important;
         margin-top: 0 !important;
     }
-    .nav-sm-group{
+
+    .nav-sm-group {
         text-align: center;
     }
+    
 }
 
 .f-10 {
@@ -50,4 +52,17 @@ nav {
 
 .p4-16 {
     padding: 4px 8px !important;
+}
+
+/* resetting bootstrap nav toggler and menu */
+.dropdown-menu {
+    text-align: center !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
 }

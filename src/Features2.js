@@ -84,7 +84,7 @@ export default function Features2() {
           </div>
           <div
             className="col-lg-5 overflow-hidden"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="2000"
           >
             <a
