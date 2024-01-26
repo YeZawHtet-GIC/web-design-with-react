@@ -9,14 +9,20 @@ export default function Header() {
   const handleMouseLeave = () => {
     setSubdropdownOpen(false);
   };
+
+  // Menu Button change
+  const [isCollapsed, setIsCollapsed] = useState(false);
+
+  const clickHamburger = () => {
+    setIsCollapsed(!isCollapsed);
+  };
   return (
- 
     <div
       className="position-fixed w-100 pt-2 bz-1000"
       data-aos="fade-in"
       data-aos-duration="1000"
-    >  
-     {/*  Header Navigation Start */}
+    >
+      {/*  Header Navigation Start */}
       <nav className="navbar pt-2 navbar-expand-lg navbar-light">
         <div className="container">
           <a className="navbar-brand f-24w" href="#">
@@ -32,7 +38,21 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span
+              className={`navbar-toggler-icon ${
+                isCollapsed ? "collapsed" : ""
+              }`}
+              onClick={clickHamburger}
+              style={{
+               backgroundImage: isCollapsed
+                  ? "none"
+                  : "",
+              }}
+            >  {isCollapsed ? (
+               <i className="fa fa-times" aria-hidden="true"></i>
+            ) : (
+              ""
+            )}</span>
           </button>
           {/* Mobile Size hamburger Menu Button */}
           <div className="collapse navbar-collapse" id="navbarSupportedContent">

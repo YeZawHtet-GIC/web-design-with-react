@@ -16,7 +16,6 @@ export default function Pricing2() {
           </span>
         </div>
         {/* Header End */}
-
         {/* Card Item Row Start */}
         <div className="row row-cols-1 row-cols-lg-2">
           <div
