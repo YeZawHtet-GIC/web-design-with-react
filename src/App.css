@@ -1,33 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-.cmn-btn{
-padding: 15px 30px !important;
-background-color: #5489FF;
-border-radius: 30px !important;
-font-size: 11px !important;
-text-transform: uppercase !important;
-font-weight: 700 !important;
-letter-spacing: .05rem !important;
-margin-right: 10px ;
-text-decoration: none !important;
-}
-a{
-    text-decoration: none;
-    color:#111;
+.cmn-btn {
+    padding: 15px 30px !important;
+    background-color: #5489FF;
+    border-radius: 30px !important;
+    font-size: 11px !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    letter-spacing: .05rem !important;
+    margin-right: 10px;
+    text-decoration: none !important;
 }
 
-.icon-instagram,.icon-facebook,.icon-twitter, .icon-linkedin, .icon-pinterest, .icon-dribbble{
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    line-height: 30px;
-    text-align: center;
-    display: inline-block;
-    background-color: #777777;
-    color: #eee;
-    border-radius: 50%;
+a {
+    text-decoration: none;
+    color: #111;
 }
-.containter-fluid{
+
+
+
+.containter-fluid {
     font-size: 14px;
     font-family: Nunito, sans-serif;
 }
@@ -43,30 +35,71 @@ a{
     color: #4085ff;
 }
 
-.container-spacing{
+.container-spacing {
     padding: 100px 0 !important;
 }
-.container-spacing2{
+
+.container-spacing2 {
     padding: 70px 0 !important;
 }
 
 /* footer.css */
- #Footer h3{
+#Footer h3 {
     font-size: 16px !important;
     color: #000 !important;
 }
-#Footer, #Footer li a{
+
+#Footer, #Footer li a {
     font-size: 14px !important;
     color: #888 !important;
 }
 
-/* Moblie Responsive */
-@media (max-width:768px) {
-    .container-spacing{
-        padding: 50px 0 !important;
-    }
+/* Custom Font Size Common*/
+.f-10 {
+    font-size: 10px !important;
 }
 
-.f-18{
+.f-18 {
     font-size: 18px !important;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+.f-30 {
+    font-size: 30px;
+}
+
+.f-38 {
+    font-size: 38px;
+}
+
+.f-40 {
+    font-size: 40px;
+}
+
+.f-24w {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Custom Background */
+.bg-1 {
+    background-color: #f8f9fa;
+}
+
+.bg-2 {
+    background-color: #efefef;
+}
+
+/* Moblie Responsive */
+@media (max-width:768px) {
+    .container-spacing {
+        padding: 50px 0 !important;
+    }
 }

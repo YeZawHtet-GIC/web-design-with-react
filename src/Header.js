@@ -10,6 +10,7 @@ export default function Header() {
     setSubdropdownOpen(false);
   };
   return (
+    // Header Navigation Start
     <div
       className="position-fixed w-100 pt-2 bz-1000"
       data-aos="fade-in"
@@ -158,8 +159,6 @@ export default function Header() {
           </div>
         </div>
       </nav>
-
-
     </div>
   );
 }

@@ -4,11 +4,6 @@ nav {
     font-family: Nunito, sans-serif;
 }
 
-.f-24w {
-    font-size: 24px;
-    font-weight: 700;
-}
-
 .nav-btn {
     border-radius: 20px !important;
     margin-right: 10px !important;
@@ -26,21 +21,6 @@ nav {
     margin-top: -20% !important;
 }
 
-@media (max-width:1000px) {
-    .sub-margin {
-        margin-left: 0 !important;
-        margin-top: 0 !important;
-    }
-
-    .nav-sm-group {
-        text-align: center;
-    }
-    
-}
-
-.f-10 {
-    font-size: 10px !important;
-}
 
 .ml-10 {
     margin-left: 20px !important;
@@ -66,3 +46,17 @@ nav {
 .navbar-toggler:focus {
     box-shadow: none !important;
 }
+/* resetting bootstrap nav toggler and menu */
+/* Mobile Size */
+@media (max-width:1024px) {
+    .sub-margin {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .nav-sm-group {
+        text-align: center;
+    }
+
+}
+/* Mobile Size End*/

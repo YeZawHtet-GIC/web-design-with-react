@@ -28,20 +28,9 @@
     color: #407bff !important;
 }
 
-.bg-1{
-    background-color: #f8f9fa ;
-}
-
 .arrow-size{
     width: 30px;
     height: 30px;
-}
-
-.f-28{
-    font-size: 28px;
-}
-.f-38{
-    font-size: 38px;
 }
 
 @media (max-width:1024px) {
