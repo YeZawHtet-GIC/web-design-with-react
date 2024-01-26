@@ -82,15 +82,14 @@ export default function Features2() {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 overflow-hidden">
+          <div
+            className="col-lg-5 overflow-hidden"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <a
               type="button"
               onClick={() => handleItemClick("item1")}
-              // class="carousel-control-prev"
-              // data-bs-target="#dashboard"
-              // data-bs-slide="1"
-              // data-aos="fade-left"
-              // data-aos-duration="800"
               className={`d-flex m-4 g-3 text-decoration-none text-dark p-2 rounded ${
                 activeItemId === "item1" ? "feature-nav-card" : ""
               }`}
@@ -122,13 +121,6 @@ export default function Features2() {
             <a
               type="button"
               onClick={() => handleItemClick("item2")}
-              // class="carousel-control-next"
-              // type="button"
-              // data-bs-target="#dashboard"
-              // data-bs-slide="next"
-              // data-aos="fade-left"
-              // data-aos-duration="1200"
-              // href="#dashboard"
               className={`d-flex m-4 g-3 text-decoration-none text-dark p-2 rounded ${
                 activeItemId === "item2" ? "feature-nav-card" : ""
               }`}
@@ -163,12 +155,6 @@ export default function Features2() {
             <a
               type="button"
               onClick={() => handleItemClick("item3")}
-              // class="carousel-control-prev"
-              // data-bs-target="#demo"
-              // data-bs-slide="prev"
-              // data-aos="fade-left"
-              // data-aos-duration="1600"
-              // href="#dashboard"
               className={`d-flex m-4 g-3 text-decoration-none text-dark p-2 rounded ${
                 activeItemId === "item3" ? "feature-nav-card" : ""
               }`}
@@ -203,13 +189,6 @@ export default function Features2() {
             <a
               type="button"
               onClick={() => handleItemClick("item4")}
-              // class="carousel-control-next"
-              // type="button"
-              // data-bs-target="#dashboard"
-              // data-bs-slide="next"
-              // data-aos="fade-left"
-              // data-aos-duration="2000"
-              
               className={`d-flex m-4 g-3 text-decoration-none text-dark p-2 rounded ${
                 activeItemId === "item4" ? "feature-nav-card" : ""
               }`}

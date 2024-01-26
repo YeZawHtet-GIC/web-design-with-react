@@ -31,14 +31,20 @@ export default function Pricing() {
                 >
                   <div className="price d-flex flex-column text-center">
                     <span className="f-30">Free</span>
-                    <span className="f-40">
+                    <span className="f-40 text-c1">
                       <sup className="f-20">$</sup>0
                     </span>
                   </div>
                   <ul className="lh-lg list-unstyled">
-                    <li className="stick position-relative ps-4">There live the blind texts</li>
-                    <li className="stick position-relative ps-4">Far far away behind the word</li>
-                    <li className="stick position-relative ps-4">Far from the countries Vokalia and Consonantia</li>
+                    <li className="stick position-relative ps-4">
+                      There live the blind texts
+                    </li>
+                    <li className="stick position-relative ps-4">
+                      Far far away behind the word
+                    </li>
+                    <li className="stick position-relative ps-4">
+                      Far from the countries Vokalia and Consonantia
+                    </li>
                   </ul>
                   <div className="text-center">
                     <a className="cmn-btn btn btn-outline-primary my-4">
@@ -55,14 +61,20 @@ export default function Pricing() {
                 >
                   <div className="price d-flex flex-column text-center">
                     <span className="f-30">Standard</span>
-                    <span className="f-40">
+                    <span className="f-40 text-c1">
                       <sup className="f-20">$</sup>19.99
                     </span>
                   </div>
                   <ul className="lh-lg list-unstyled">
-                    <li className="stick position-relative ps-4">There live the blind texts</li>
-                    <li className="stick position-relative ps-4">Far far away behind the word</li>
-                    <li className="stick position-relative ps-4">Far from the countries Vokalia and Consonantia</li>
+                    <li className="stick position-relative ps-4">
+                      There live the blind texts
+                    </li>
+                    <li className="stick position-relative ps-4">
+                      Far far away behind the word
+                    </li>
+                    <li className="stick position-relative ps-4">
+                      Far from the countries Vokalia and Consonantia
+                    </li>
                   </ul>
                   <div className="text-center">
                     <a className="cmn-btn btn btn-primary my-4">Get Started</a>
@@ -70,30 +82,35 @@ export default function Pricing() {
                 </div>
               </div>
               <div className="col-lg-4 mb-4">
-              <div
-                className="p-5 border bf-br40"
-                data-aos="fade-up"
-                data-aos-duration="1400"
-              >
-                <div className="price d-flex flex-column text-center">
-                  <span className="f-30">Premium</span>
-                  <span className="f-40">
-                    <sup className="f-20">$</sup>79.99
-                  </span>
-                </div>
-                <ul className="list-unstyled lh-lg">
-                  <li className="stick position-relative ps-4">There live the blind texts</li>
-                  <li className="stick position-relative ps-4">Far far away behind the word</li>
-                  <li className="stick position-relative ps-4">Far from the countries Vokalia and Consonantia</li>
-                </ul>
-                <div className="text-center">
-                  <a className="cmn-btn btn btn-outline-primary my-4">
-                    Get Started
-                  </a>
+                <div
+                  className="p-5 border bf-br40"
+                  data-aos="fade-up"
+                  data-aos-duration="1400"
+                >
+                  <div className="price d-flex flex-column text-center">
+                    <span className="f-30">Premium</span>
+                    <span className="f-40 text-c1">
+                      <sup className="f-20">$</sup>79.99
+                    </span>
+                  </div>
+                  <ul className="list-unstyled lh-lg">
+                    <li className="stick position-relative ps-4">
+                      There live the blind texts
+                    </li>
+                    <li className="stick position-relative ps-4">
+                      Far far away behind the word
+                    </li>
+                    <li className="stick position-relative ps-4">
+                      Far from the countries Vokalia and Consonantia
+                    </li>
+                  </ul>
+                  <div className="text-center">
+                    <a className="cmn-btn btn btn-outline-primary my-4">
+                      Get Started
+                    </a>
+                  </div>
                 </div>
               </div>
-              </div>
-              
             </div>
           </div>
         </div>

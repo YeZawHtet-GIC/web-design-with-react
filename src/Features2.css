@@ -20,4 +20,5 @@ background-color: #407bff;
 
 .feature-nav-card{
     background-color: #fff !important;
+    border-right: #407bff 4px solid;
 }

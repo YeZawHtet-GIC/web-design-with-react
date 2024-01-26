@@ -6,7 +6,7 @@ export default function AboutUs() {
     <div className="container-fluid container-spacing" id="About">
       <div className="container">
         <div className="row">
-          <div className="col-lg-8" data-aos="fade-up"
+          <div className="col-lg-8" id="about-image" data-aos="fade-up"
           data-aos-duration="1000">
             <img src={AboutImage} alt="About Section Image"></img>
           </div>
@@ -35,11 +35,11 @@ export default function AboutUs() {
             <div className="row" data-aos="fade-in"
           data-aos-duration="1000">
                 <div className="col-lg-6">
-                    <span className="d-block mt-3 counter">59M</span>
+                    <span className="d-block mt-3 f-40px-400w"><span className="counter"></span>M</span>
                     <span className="d-block mt-3">MEMBERS</span>
                 </div>
                 <div className="col-lg-6">
-                <span className="d-block mt-3 counter">14</span>
+                <span className="d-block mt-3 f-40px-400w"><span className="counter2"></span></span>
                     <span className="d-block mt-3">TEAM</span>
                 </div>
             </div>
