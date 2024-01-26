@@ -4,6 +4,7 @@ import "./Hero.css";
 export default function Hero() {
   return (
     <div className="container-fluid hero-section pb-5 pt-8per">
+      {/* Wrapper Start */}
       <div className="container">
         <div className="row row-cols-lg-2 row-cols-1">
           {/* Hero Right For Image */}
@@ -45,6 +46,7 @@ export default function Hero() {
           {/* Hero Left For Text End*/}
         </div>
       </div>
+      {/* Wrapper End */}
     </div>
   );
 }

@@ -7,8 +7,10 @@ import authorImage2 from "./images/person_2.jpg";
 export default function Feedback() {
   return (
     <div className="container-fluid container-spacing">
+      {/* Wrapper Start */}
       <div className="container">
         <div className="row carousel slide" id="demo" data-bs-ride="carousel">
+          {/* Left Side Cartousel Control and Text Start */}
           <div
             className="col-lg-4 mb-4 txt-sm-small"
             data-aos="fade-up"
@@ -66,6 +68,8 @@ export default function Feedback() {
               </svg>
             </a>
           </div>
+          {/* Left Side Cartousel Control and Text End */}
+          {/* Right Side Carousel Slide Start */}
           <div className="col-lg-8" data-aos="fade-in" data-aos-duration="1000">
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -186,8 +190,10 @@ export default function Feedback() {
               </div>
             </div>
           </div>
+          {/* Right Side Carousel Slide End */}
         </div>
       </div>
+      {/* Wrapper End */}
     </div>
   );
 }

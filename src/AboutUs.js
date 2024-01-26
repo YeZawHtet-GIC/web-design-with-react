@@ -13,6 +13,7 @@ export default function AboutUs() {
   }, []);
   // Counter End
   return (
+    // Control Scroll and Count
     <ScrollTrigger
       onEnter={() => setStartCount(true)}
       onExit={() => setStartCount(false)}
@@ -20,6 +21,7 @@ export default function AboutUs() {
       <div className="container-fluid container-spacing" id="About">
         <div className="container">
           <div className="row">
+            {/* Left Side of About Image */}
             <div
               className="col-lg-8"
               id="about-image"
@@ -28,6 +30,8 @@ export default function AboutUs() {
             >
               <img src={AboutImage} alt="About Section Image"></img>
             </div>
+            {/* Left Side of About Image End*/}
+            {/* Right Side Text */}
             <div
               className="col-lg-4"
               data-aos="fade-up"
@@ -92,6 +96,7 @@ export default function AboutUs() {
                 </div>
               </div>
             </div>
+            {/* Right Side Text End*/}
           </div>
         </div>
       </div>

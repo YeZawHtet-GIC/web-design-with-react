@@ -3,35 +3,54 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="container-fluid container-spacing" id="Contact">
+      {/* Wrapper Start */}
       <div className="container">
-        <div className="row text-center" data-aos="fade-up"
-          data-aos-duration="1000">
+        {/* Header Text Start */}
+        <div
+          className="row text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <h2 className="f-38">Get In Touch</h2>
           <span className="mb-5 text-muted">
             Far from the countries Vokalia and Consonantia
           </span>
         </div>
+        {/* Header Text End */}
         <div className="row">
-          <div className="col-lg-7" data-aos="fade-up"
-          data-aos-duration="1200">
-            <form className="row g-3">
+          {/* Contact Form Start */}
+          <div className="col-lg-7" data-aos="fade-up" data-aos-duration="1200">
+            <form className="row gap-3">
               <div className="col-md-6">
                 <label for="firstName" className="form-label">
                   First Name
                 </label>
-                <input type="email" className="form-control border-remove" name="firstName" />
+                <input
+                  type="email"
+                  className="form-control border-remove"
+                  name="firstName"
+                />
               </div>
               <div className="col-md-6">
                 <label for="lastName" className="form-label">
                   Last Name
                 </label>
-                <input type="text" className="form-control border-remove" name="lastName" />
+                <input
+                  type="text"
+                  className="form-control border-remove"
+                  name="lastName"
+                />
               </div>
               <div className="col-12">
                 <label for="emailAddress" className="form-label">
                   Email Address
                 </label>
-                <input type="email" rows="3" name="emailAddress" className="form-control border-remove" />
+                <input
+                  type="email"
+                  rows="3"
+                  name="emailAddress"
+                  className="form-control border-remove"
+                />
               </div>
               <div className="col-12">
                 <label for="Message" className="form-label">
@@ -50,10 +69,12 @@ export default function Contact() {
               </div>
             </form>
           </div>
+          {/* Contact Form End */}
+          {/* Contact Info Start */}
           <div
             className="col-lg-4 ms-auto"
             data-aos="fade-up"
-          data-aos-duration="1400"
+            data-aos-duration="1400"
           >
             <h3 className="h5 mb-4 text-black">Contact Info</h3>
             <address className="text-black d-flex">
@@ -110,8 +131,10 @@ export default function Contact() {
               </li>
             </ul>
           </div>
+          {/* Contact Info End */}
         </div>
       </div>
+      {/* Wrapper End */}
     </div>
   );
 }

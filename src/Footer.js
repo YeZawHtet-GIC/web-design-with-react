@@ -3,8 +3,10 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="container-fluid container-spacing2 bg-2" id="Footer">
+      {/* Wrapper Start */}
       <div className="container" data-aos="fade-in" data-aos-duration="1000">
         <div className="row">
+          {/* Footer Column 1 */}
           <div className="col-lg-4">
             <div className="aboutLaunch">
               <h3>
@@ -63,6 +65,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+          {/* Footer Column 2 */}
           <div className="col-lg-2 ms-auto">
             <div className="f-Projects lh-lg">
               <h3>Projects</h3>
@@ -95,6 +98,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+          {/* Footer Column 3 */}
           <div className="col-lg-2">
             <div className="f-service lh-lg">
               <h3>Services</h3>
@@ -122,6 +126,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+          {/* Footer Column 4 */}
           <div className="col-lg-3">
             <div className="f-Contact lh-lg">
               <h3>Contact</h3>
@@ -156,7 +161,10 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+          {/* Footer Column End */}
         </div>
+
+        {/* Footer Down Start */}
         <div className="row mt-5">
           <div className="col-12 text-center">
             <p>
@@ -174,7 +182,9 @@ export default function Footer() {
             </p>
           </div>
         </div>
+        {/* Footer Down end */}
       </div>
+      {/* Wrapper End */}
     </div>
   );
 }

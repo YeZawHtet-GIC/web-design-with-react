@@ -5,6 +5,7 @@ export default function Pricing() {
       className="container-fluid container-spacing"
       style={{ backgroundColor: "#f7f8f9" }}
     >
+      {/* Wrapper Start */}
       <div className="container">
         <div
           className="row text-center mb-5"
@@ -23,6 +24,7 @@ export default function Pricing() {
         >
           <div className="col-lg-10">
             <div className="row">
+              {/* Pricing Card 1 */}
               <div className="col-lg-4 mb-4">
                 <div
                   className="p-5 border bf-br40"
@@ -53,6 +55,7 @@ export default function Pricing() {
                   </div>
                 </div>
               </div>
+              {/* Pricing Card 2 */}
               <div className="col-lg-4 mb-4">
                 <div
                   className="p-5 border shadow-lg bf-br40"
@@ -81,6 +84,7 @@ export default function Pricing() {
                   </div>
                 </div>
               </div>
+              {/* Pricing Card 3 */}
               <div className="col-lg-4 mb-4">
                 <div
                   className="p-5 border bf-br40"
@@ -115,6 +119,7 @@ export default function Pricing() {
           </div>
         </div>
       </div>
+      {/* Wrapper End */}
     </div>
   );
 }

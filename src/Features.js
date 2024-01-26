@@ -6,9 +6,11 @@ import authorImage from "./images/person_1.jpg";
 export default function Features() {
   return (
     <div className="container-fluid container-spacing" id="Features">
+      {/* Wrapper Start */}
       <div className="container">
         <div className="row">
-          <div className="col-lg-4"  data-aos="fade-up" data-aos-duration="800">
+{/* Left Side Text Start */}
+          <div className="col-lg-4" data-aos="fade-up" data-aos-duration="800">
             <span className="caption">Digital Services</span>
             <h3 className="heading">Selling Digital Services</h3>
             <p className="mt-3 text-muted lh-lg">
@@ -17,10 +19,18 @@ export default function Features() {
               they live in Bookmarksgrove right at the coast
             </p>
             <ul className="lh-lg list-unstyled">
-              <li className="stick position-relative ps-4">There live the blind texts</li>
-              <li className="stick position-relative ps-4">Far far away behind the word</li>
+              <li className="stick position-relative ps-4">
+                There live the blind texts
+              </li>
+              <li className="stick position-relative ps-4">
+                Far far away behind the word
+              </li>
             </ul>
-            <blockquote className="text-black"  data-aos="fade-up" data-aos-duration="1500">
+            <blockquote
+              className="text-black"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <i>
                 “Separated they{" "}
                 <mark>
@@ -30,7 +40,11 @@ export default function Features() {
                 their place and supplies it with the necessary regelialia. ”
               </i>
             </blockquote>
-            <div className="author d-flex mt-3"  data-aos="fade-up" data-aos-duration="1500">
+            <div
+              className="author d-flex mt-3"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div>
                 <img
                   className="author-image"
@@ -46,11 +60,20 @@ export default function Features() {
               </div>
             </div>
           </div>
-          <div className="col-lg-7 shadow-lg ms-auto"  data-aos="fade-up" data-aos-duration="1500">
+          {/* Left Side Text End */}
+
+          {/* Right Side Image Start */}
+          <div
+            className="col-lg-7 shadow-lg ms-auto"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <img src={Feature} className="img-fluid"></img>
           </div>
+          {/* Right Side Image End */}
         </div>
       </div>
+      {/* Wrapper End */}
     </div>
   );
 }

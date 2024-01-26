@@ -12,8 +12,10 @@ export default function Features2() {
   };
   return (
     <div className="container-fluid container-spacing" id="Pricing">
+      {/* Wrapper Start */}
       <div className="container">
         <div className="row carousel slide" id="dashboard" data-bs-ride="true">
+          {/* Left Side Carousel Start */}
           <div
             className="col-lg-7 p-2 shadow-lg"
             data-aos="fade-in"
@@ -82,6 +84,8 @@ export default function Features2() {
               </div>
             </div>
           </div>
+          {/* Left Side Carousel End */}
+          {/* Right Side Carousel Control Link Start */}
           <div
             className="col-lg-5 overflow-hidden"
             data-aos="fade-up"
@@ -217,8 +221,10 @@ export default function Features2() {
               </div>
             </a>
           </div>
+          {/* Right Side Carousel Control Link End */}
         </div>
       </div>
+      {/* Wrapper End */}
     </div>
   );
 }

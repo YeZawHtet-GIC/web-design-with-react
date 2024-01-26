@@ -3,8 +3,10 @@ import "./Features3.css";
 export default function Features3() {
   return (
     <div className="container-fluid container-spacing">
+      {/* Wrapper Start */}
       <div className="container">
         <div className="row row-cols-1 row-cols-lg-4">
+          {/* Col 1 */}
           <div className="col" data-aos="fade-up" data-aos-duration="600">
             <div className="service-icon1 text-center rounded p-2 w50-mb-20">
               <svg
@@ -30,6 +32,7 @@ export default function Features3() {
               </p>
             </div>
           </div>
+          {/* Col 2 */}
           <div className="col" data-aos="fade-up" data-aos-duration="1000">
             <div className="service-icon2 text-center rounded p-2 w50-mb-20">
               <svg
@@ -58,6 +61,7 @@ export default function Features3() {
               </p>
             </div>
           </div>
+          {/* Col 3 */}
           <div className="col" data-aos="fade-up" data-aos-duration="1400">
             <div className="service-icon3 text-center rounded p-2 w50-mb-20">
               <svg
@@ -86,6 +90,7 @@ export default function Features3() {
               </p>
             </div>
           </div>
+          {/* Col 4 */}
           <div className="col" data-aos="fade-up" data-aos-duration="1800">
             <div className="service-icon3 text-center rounded p-2 w50-mb-20">
               <svg
@@ -112,6 +117,7 @@ export default function Features3() {
           </div>
         </div>
       </div>
+      {/* Wrapper End */}
     </div>
   );
 }

@@ -2,15 +2,28 @@ import React from "react";
 export default function Pricing2() {
   return (
     <div className="container-fluid container-spacing">
+      {/* Wrapper Start */}
       <div className="container">
-        <div className="row text-center" data-aos="fade-up"
-          data-aos-duration="1000">
+        {/* Header Start */}
+        <div
+          className="row text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <h2 className="f-38">Advantage of using our products</h2>
-          <span className="mb-5 text-muted">Far from the countries Vokalia and Consonantia</span>
+          <span className="mb-5 text-muted">
+            Far from the countries Vokalia and Consonantia
+          </span>
         </div>
+        {/* Header End */}
+
+        {/* Card Item Row Start */}
         <div className="row row-cols-1 row-cols-lg-2">
-          <div className="col d-flex mt-5" data-aos="fade-up"
-          data-aos-duration="1200">
+          <div
+            className="col d-flex mt-5"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <div className="service-icon1 service-icon text-center rounded p-2">
               <svg
                 className="bi bi-app-indicator"
@@ -33,11 +46,16 @@ export default function Pricing2() {
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia.
               </p>
-              <a href="#" className="text-primary text-decoration-none">Learn More</a>
+              <a href="#" className="text-primary text-decoration-none">
+                Learn More
+              </a>
             </div>
           </div>
-          <div className="col d-flex mt-5" data-aos="fade-up"
-          data-aos-duration="1400">
+          <div
+            className="col d-flex mt-5"
+            data-aos="fade-up"
+            data-aos-duration="1400"
+          >
             <div className="service-icon2 service-icon text-center rounded p-2">
               <svg
                 class="bi bi-arrow-repeat"
@@ -63,11 +81,16 @@ export default function Pricing2() {
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia.
               </p>
-              <a href="#" className="text-primary text-decoration-none">Learn More</a>
+              <a href="#" className="text-primary text-decoration-none">
+                Learn More
+              </a>
             </div>
           </div>
-          <div className="col d-flex mt-5" data-aos="fade-up"
-          data-aos-duration="1600">
+          <div
+            className="col d-flex mt-5"
+            data-aos="fade-up"
+            data-aos-duration="1600"
+          >
             <div className="service-icon3 service-icon text-center rounded p-2">
               <svg
                 class="bi bi-briefcase"
@@ -93,11 +116,16 @@ export default function Pricing2() {
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia.
               </p>
-              <a href="#" className="text-primary text-decoration-none">Learn More</a>
+              <a href="#" className="text-primary text-decoration-none">
+                Learn More
+              </a>
             </div>
           </div>
-          <div className="col d-flex mt-5" data-aos="fade-up"
-          data-aos-duration="1800">
+          <div
+            className="col d-flex mt-5"
+            data-aos="fade-up"
+            data-aos-duration="1800"
+          >
             <div className="service-icon3 service-icon text-center rounded p-2">
               <svg
                 class="bi bi-collection"
@@ -119,11 +147,15 @@ export default function Pricing2() {
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia.
               </p>
-              <a href="#" className="text-primary text-decoration-none">Learn More</a>
+              <a href="#" className="text-primary text-decoration-none">
+                Learn More
+              </a>
             </div>
           </div>
         </div>
+        {/* Card Item Row End */}
       </div>
+      {/* Wrapper End */}
     </div>
   );
 }

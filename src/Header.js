@@ -10,17 +10,19 @@ export default function Header() {
     setSubdropdownOpen(false);
   };
   return (
-    // Header Navigation Start
+ 
     <div
       className="position-fixed w-100 pt-2 bz-1000"
       data-aos="fade-in"
       data-aos-duration="1000"
-    >
+    >  
+     {/*  Header Navigation Start */}
       <nav className="navbar pt-2 navbar-expand-lg navbar-light">
         <div className="container">
           <a className="navbar-brand f-24w" href="#">
             Launch<span className="text-primary">.</span>
           </a>
+          {/* Mobile Size hamburger Menu Button */}
           <button
             className="navbar-toggler"
             type="button"
@@ -32,6 +34,7 @@ export default function Header() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+          {/* Mobile Size hamburger Menu Button */}
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item ms-3">
@@ -159,6 +162,7 @@ export default function Header() {
           </div>
         </div>
       </nav>
+      {/* Header Navigation End */}
     </div>
   );
 }
