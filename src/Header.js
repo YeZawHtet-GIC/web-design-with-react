@@ -29,33 +29,26 @@ export default function Header() {
             Launch<span className="text-primary">.</span>
           </a>
           {/* Mobile Size hamburger Menu Button */}
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button className="hamburger">
             <span
-              className={`navbar-toggler-icon ${
-                isCollapsed ? "collapsed" : ""
-              }`}
+              className={`navbar-toggler-icon ${isCollapsed ? "collapsed" : ""
+                }`}
               onClick={clickHamburger}
               style={{
-               backgroundImage: isCollapsed
+                backgroundImage: isCollapsed
                   ? "none"
                   : "",
               }}
             >  {isCollapsed ? (
-               <i className="fa fa-times" aria-hidden="true"></i>
+              <i className="fa fa-times" aria-hidden="true"></i>
             ) : (
               ""
             )}</span>
           </button>
+
+
           {/* Mobile Size hamburger Menu Button */}
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className={`navbar-collapse ${isCollapsed ? "mobile-menu" : ""}`} id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item ms-3">
                 <a
@@ -78,9 +71,8 @@ export default function Header() {
                   Dropdown
                 </a>
                 <ul
-                  className={`dropdown-menu dropend ${
-                    isSubdropdownOpen ? "show" : ""
-                  }`}
+                  className={`dropdown-menu dropend ${isSubdropdownOpen ? "show" : ""
+                    }`}
                   aria-labelledby="navbarDropend"
                 >
                   <li>
@@ -106,9 +98,8 @@ export default function Header() {
                       ></i>
                     </a>
                     <ul
-                      className={`dropdown-menu sub-margin ${
-                        isSubdropdownOpen ? "show" : ""
-                      }`}
+                      className={`dropdown-menu sub-margin ${isSubdropdownOpen ? "show" : ""
+                        }`}
                     >
                       <li>
                         <a className="dropdown-item" href="#">
@@ -126,11 +117,6 @@ export default function Header() {
                         </a>
                       </li>
                     </ul>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Menu Three
-                    </a>
                   </li>
                 </ul>
               </li>

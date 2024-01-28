@@ -1,10 +1,19 @@
-
+/* Slide Show Start */
 .inactive{
-    transform: translateX(-100%) !important;
+   display: none;
 }
 .active{
-    transform: translateX(50) !important;
+    animation: slide .8s ease;
 }
+@keyframes slide {
+    0%{
+        transform: scale(0.5);
+    }  
+    100%{
+        transform: scale(1);
+    }
+}
+/* Slide Show End */
 .service-icon {
     width: 50px;
     height: 40px;
@@ -14,8 +23,8 @@
 
 .c-rounded{
 padding: 5px;
-border-radius: 50%;
 background-color: #407bff;
+border-radius: 50%;
 }
 
 .feature-nav-card{

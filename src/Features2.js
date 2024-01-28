@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Pricing.css";
 import "./Features2.css";
 import featureImage from "./images/dashboard.jpg";
 export default function Features2() {
@@ -21,9 +20,9 @@ export default function Features2() {
             data-aos="fade-in"
             data-aos-duration="1000"
           >
-            <div className="carousel-inner">
+            <div className="card-holder">
               <div
-                className={`carousel-item position-relative ${
+                className={`${
                   activeItemId === "item1" ? "active" : "inactive"
                 }`}
               >
@@ -38,7 +37,7 @@ export default function Features2() {
                 </div>
               </div>
               <div
-                className={`carousel-item ${
+                className={`${
                   activeItemId === "item2" ? "active" : "inactive"
                 }`}
               >
@@ -53,7 +52,7 @@ export default function Features2() {
                 </div>
               </div>
               <div
-                className={`carousel-item ${
+                className={`${
                   activeItemId === "item3" ? "active" : "inactive"
                 }`}
               >
@@ -68,7 +67,7 @@ export default function Features2() {
                 </div>
               </div>
               <div
-                className={`carousel-item ${
+                className={`${
                   activeItemId === "item4" ? "active" : "inactive"
                 }`}
               >
