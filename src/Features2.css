@@ -2,7 +2,7 @@
 .inactive{
    display: none;
 }
-.active{
+.custom-active{
     animation: slide .8s ease;
 }
 @keyframes slide {

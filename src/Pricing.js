@@ -4,7 +4,7 @@ export default function Pricing() {
   return (
     <div
       className="container-fluid container-spacing"
-      style={{ backgroundColor: "#f7f8f9" }}
+      style={{ backgroundColor: "#f7f8f9" }} id="Pricing"
     >
       {/* Wrapper Start */}
       <div className="container">

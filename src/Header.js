@@ -54,7 +54,7 @@ export default function Header() {
                 <a
                   className="nav-link nv-center active"
                   aria-current="page"
-                  href="#Features"
+                  href="#Hero"
                 >
                   Home
                 </a>

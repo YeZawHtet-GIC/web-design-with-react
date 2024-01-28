@@ -3,7 +3,7 @@ import HeroImage from "./images/img_hero.svg";
 import "./Hero.css";
 export default function Hero() {
   return (
-    <div className="container-fluid hero-section pb-5 pt-8per">
+    <div className="container-fluid hero-section pb-5 pt-8per" id="Hero">
       {/* Wrapper Start */}
       <div className="container">
         <div className="row row-cols-lg-2 row-cols-1">

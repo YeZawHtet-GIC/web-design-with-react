@@ -10,7 +10,7 @@ export default function Features2() {
     setActiveItemId(itemId);
   };
   return (
-    <div className="container-fluid container-spacing" id="Pricing">
+    <div className="container-fluid container-spacing">
       {/* Wrapper Start */}
       <div className="container">
         <div className="row carousel slide" id="dashboard" data-bs-ride="true">
@@ -23,7 +23,7 @@ export default function Features2() {
             <div className="card-holder">
               <div
                 className={`${
-                  activeItemId === "item1" ? "active" : "inactive"
+                  activeItemId === "item1" ? "custom-active" : "inactive"
                 }`}
               >
                 {/* Content for item with ID 'item1' */}
@@ -38,7 +38,7 @@ export default function Features2() {
               </div>
               <div
                 className={`${
-                  activeItemId === "item2" ? "active" : "inactive"
+                  activeItemId === "item2" ? "custom-active" : "inactive"
                 }`}
               >
                 {/* Content for item with ID 'item2' */}
@@ -53,7 +53,7 @@ export default function Features2() {
               </div>
               <div
                 className={`${
-                  activeItemId === "item3" ? "active" : "inactive"
+                  activeItemId === "item3" ? "custom-active" : "inactive"
                 }`}
               >
                 {/* Content for item with ID 'item3' */}
@@ -68,7 +68,7 @@ export default function Features2() {
               </div>
               <div
                 className={`${
-                  activeItemId === "item4" ? "active" : "inactive"
+                  activeItemId === "item4" ? "custom-active" : "inactive"
                 }`}
               >
                 {/* Content for item with ID 'item3' */}
