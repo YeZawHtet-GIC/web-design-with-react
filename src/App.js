@@ -1,18 +1,9 @@
-import Features from "./Features";
-import Features2 from "./Features2";
-import Features3 from "./Features3";
-import Header from "./Header";
-import Hero from "./Hero";
-import Pricing from "./Pricing";
-import Pricing2 from "./Pricing2";
+import Header from "./Header/Header";
 import "./App.css";
-import Feedback from "./Feedback";
-import AboutUs from "./AboutUs";
-import AboutUs2 from "./AboutUs2";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Footer from "./Footer/Footer";
 import AOS from "aos";
 import React, { useEffect } from "react";
+import { Outlet } from "react-router-dom";
 
 function App() {
   //Aos Animation
@@ -22,16 +13,7 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Features />
-      <Features2 />
-      <Features3 />
-      <Pricing />
-      <Pricing2 />
-      <Feedback />
-      <AboutUs />
-      <AboutUs2 />
-      <Contact />
+      <Outlet />
       <Footer />
     </>
   );
