@@ -1,0 +1,33 @@
+/* Slide Show Start */
+.inactive{
+   display: none;
+}
+.custom-active{
+    animation: slide .8s ease;
+}
+@keyframes slide {
+    0%{
+        transform: scale(0.5);
+    }  
+    100%{
+        transform: scale(1);
+    }
+}
+/* Slide Show End */
+.service-icon {
+    width: 50px;
+    height: 40px;
+    margin-right: 30px;
+    margin-bottom: 24px;
+}
+
+.c-rounded{
+padding: 5px;
+background-color: #407bff;
+border-radius: 50%;
+}
+
+.feature-nav-card{
+    background-color: #fff !important;
+    border-right: #407bff 4px solid;
+}
