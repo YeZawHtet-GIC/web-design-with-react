@@ -61,8 +61,4 @@ const router = createBrowserRouter([
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <RouterProvider router={router}>
-    <App2 />
-  </RouterProvider>
-);
+root.render(<RouterProvider router={router} />);
