@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 export default function Header() {
   const [isSubdropdownOpen, setSubdropdownOpen] = useState(false);
@@ -25,39 +26,45 @@ export default function Header() {
       {/*  Header Navigation Start */}
       <nav className="navbar pt-2 navbar-expand-lg navbar-light">
         <div className="container">
-          <a className="navbar-brand f-24w" href="#">
+          <Link className="navbar-brand f-24w" to="">
             Launch<span className="text-primary">.</span>
-          </a>
+          </Link>
+
           {/* Mobile Size hamburger Menu Button */}
           <button className="hamburger">
             <span
-              className={`navbar-toggler-icon ${isCollapsed ? "collapsed" : ""
-                }`}
+              className={`navbar-toggler-icon ${
+                isCollapsed ? "collapsed" : ""
+              }`}
               onClick={clickHamburger}
               style={{
-                backgroundImage: isCollapsed
-                  ? "none"
-                  : "",
+                backgroundImage: isCollapsed ? "none" : "",
               }}
-            >  {isCollapsed ? (
-              <i className="fa fa-times" aria-hidden="true"></i>
-            ) : (
-              ""
-            )}</span>
+            >
+              {" "}
+              {isCollapsed ? (
+                <i className="fa fa-times" aria-hidden="true"></i>
+              ) : (
+                ""
+              )}
+            </span>
           </button>
 
-
           {/* Mobile Size hamburger Menu Button */}
-          <div className={`navbar-collapse ${isCollapsed ? "mobile-menu" : ""}`} id="navbarSupportedContent">
+          <div
+            className={`navbar-collapse ${isCollapsed ? "mobile-menu" : ""}`}
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item ms-3">
-                <a
+                <Link
                   className="nav-link nv-center active"
                   aria-current="page"
                   href="#Hero"
+                  to="/Home"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown ms-3">
                 <a
@@ -71,8 +78,9 @@ export default function Header() {
                   Dropdown
                 </a>
                 <ul
-                  className={`dropdown-menu dropend ${isSubdropdownOpen ? "show" : ""
-                    }`}
+                  className={`dropdown-menu dropend ${
+                    isSubdropdownOpen ? "show" : ""
+                  }`}
                   aria-labelledby="navbarDropend"
                 >
                   <li>
@@ -98,8 +106,9 @@ export default function Header() {
                       ></i>
                     </a>
                     <ul
-                      className={`dropdown-menu sub-margin ${isSubdropdownOpen ? "show" : ""
-                        }`}
+                      className={`dropdown-menu sub-margin ${
+                        isSubdropdownOpen ? "show" : ""
+                      }`}
                     >
                       <li>
                         <a className="dropdown-item" href="#">
@@ -121,40 +130,44 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item ms-3">
-                <a
+                <Link
                   className="nav-link nv-center text-muted"
                   aria-current="page"
                   href="#Features"
+                  to="/Features"
                 >
                   Features
-                </a>
+                </Link>
               </li>
               <li className="nav-item ms-3">
-                <a
+                <Link
                   className="nav-link nv-center text-muted"
                   aria-current="page"
                   href="#Pricing"
+                  to="/Pricing"
                 >
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="nav-item ms-3">
-                <a
+                <Link
                   className="nav-link nv-center text-muted"
                   aria-current="page"
                   href="#About"
+                  to="/AboutUs"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item ms-3">
-                <a
+                <Link
                   className="nav-link nv-center text-muted"
                   aria-current="page"
                   href="#Contact"
+                  to="/Contact"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="nav-sm-group">

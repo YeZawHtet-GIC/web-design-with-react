@@ -21,7 +21,7 @@ export default function Contact() {
           {/* Contact Form Start */}
           <div className="col-lg-7" data-aos="fade-up" data-aos-duration="1200">
             <form className="row gap-3">
-              <div className="col-md-6">
+              <div className="col-lg-12">
                 <label for="firstName" className="form-label">
                   First Name
                 </label>
@@ -31,7 +31,7 @@ export default function Contact() {
                   name="firstName"
                 />
               </div>
-              <div className="col-md-6">
+              <div className="col-lg-12">
                 <label for="lastName" className="form-label">
                   Last Name
                 </label>
@@ -41,7 +41,7 @@ export default function Contact() {
                   name="lastName"
                 />
               </div>
-              <div className="col-12">
+              <div className="col-lg-12">
                 <label for="emailAddress" className="form-label">
                   Email Address
                 </label>
@@ -52,7 +52,7 @@ export default function Contact() {
                   className="form-control border-remove"
                 />
               </div>
-              <div className="col-12">
+              <div className="col-lg-12">
                 <label for="Message" className="form-label">
                   Message
                 </label>
@@ -62,7 +62,7 @@ export default function Contact() {
                   name="message"
                 ></textarea>
               </div>
-              <div class="col-12">
+              <div class="col-lg-12">
                 <button type="submit" class="btn btn-primary cmn-btn">
                   SEND MESSAGE
                 </button>
